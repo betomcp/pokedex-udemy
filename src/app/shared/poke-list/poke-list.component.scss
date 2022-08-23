@@ -1,0 +1,48 @@
+:host{
+
+  .poke-list{
+    // border: solid 2px red;
+  }
+
+  a{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 30px;
+    text-decoration: none;
+    width: 23%;
+
+    h2{
+      color: black;
+      font-style: italic;
+    }
+
+
+    ul{
+      list-style: none;
+      padding: 0;
+      text-align: center;
+      width: 100%;
+    }
+
+    li{
+      background-color: rgba(91, 91, 91, 0.074);
+      border-radius: 100px;
+      margin-top: 5px;
+      padding: 4px 2px;
+      width: 100%;
+    }
+
+    .poke-info{
+      width: 60%;
+    }
+
+    .poke-img{
+      text-align: end;
+    }
+
+    img{
+      width: 60%;
+    }
+
+  }
+}

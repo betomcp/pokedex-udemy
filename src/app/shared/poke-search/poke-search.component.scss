@@ -1,0 +1,25 @@
+:host{
+  section{
+    // border: solid 2px red;
+  }
+
+  input{
+    background-color: rgba(77, 77, 77, 0.438);
+    color: rgba(255, 255, 255, 0.831);
+    border-radius: 100px;
+    outline: none;
+    border: transparent;
+    width: 102%;
+    padding: 1.5rem;
+
+    &::placeholder{
+      color: rgba(255, 255, 255, 0.831);
+    }
+  }
+
+  img{
+    width:3%;
+    min-width: 40px;
+    margin-left: -10%;
+  }
+}
